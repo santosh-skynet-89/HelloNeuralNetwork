@@ -1,2 +1,2 @@
 # HelloNeuralNetwork
-Simple Neural Neural Network for Mnist Dataset
+Simple Neural Neural Network Class using numpy and Scipy 
