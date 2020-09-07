@@ -78,10 +78,9 @@ for e in range(epochs):
         #train the network
         sk.train(inputs,targets)
 
-
-    test_data_file = open("mnist_test.csv", 'r')
-    test_data_list = test_data_file.readlines()
-    test_data_file.close()
+test_data_file = open("mnist_test.csv", 'r')
+test_data_list = test_data_file.readlines()
+test_data_file.close()
 
 scorecard = []
 
