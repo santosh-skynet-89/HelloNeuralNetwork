@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.special
 
-class Skynet:
+class NeuralNet:
 
     def __init__(self,input_nodes,output_nodes,hidden_nodes,lr):
         self.input_nodes = input_nodes
@@ -49,7 +49,7 @@ output_nodes = 10
 learning_rate = 0.3
 
 #NeuralNetwork
-sk = Skynet(input_nodes,output_nodes,hidden_nodes,learning_rate)
+sk = NeuralNet(input_nodes,output_nodes,hidden_nodes,learning_rate)
 
 #loading Data
 data_file = open("mnist_train.csv", 'r')
